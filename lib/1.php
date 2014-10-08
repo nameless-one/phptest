@@ -79,39 +79,11 @@ class TestPub {
 
 }
 	
-//ïðåäïîëàãàåòñÿ - ñêîðîñòü êì/÷, êîîðäèíàòû øèðîòû/äîëãîòû â ãðàäóñàõ.
+//Ð¿Ñ€ÐµÐ´Ð¿Ð¾Ð»Ð°Ð³Ð°ÐµÑ‚ÑÑ - ÑÐºÐ¾Ñ€Ð¾ÑÑ‚ÑŒ ÐºÐ¼/Ñ‡, ÐºÐ¾Ð¾Ñ€Ð´Ð¸Ð½Ð°Ñ‚Ñ‹ ÑˆÐ¸Ñ€Ð¾Ñ‚Ñ‹/Ð´Ð¾Ð»Ð³Ð¾Ñ‚Ñ‹ Ð² Ð³Ñ€Ð°Ð´ÑƒÑÐ°Ñ….
 $test= new TestPub('{"tr": [[ 33, 33 ], [ 37, 24 ], [ 43, 45 ]], "speed": "400" }');
 
 print_r(new DateTime());
 print_r($test->getTimeArrival(new DateTime()));
 
-//print_r($test);
-
-/*
-foreach ($asd as $s) {
-
-if (trim($s[0])=="#") {
-
-$arr=explode(",",$s);
-$name=$arr[1];
-
-if (sizeof($arr)>2) {for ($c=2;$c<sizeof($arr);$c++) {$name=$name.",".$arr[$c];}}
-$name=trim(str_replace(array('<','?','>','/','\\',';',':','#'), '', $name));
-print("REM Name = \"$name\"\n");
-
-
-
-} else if (trim($s[0])=="h") {
-
-$url=trim($s);
-
-print("REM URL = \"$url\"\n");
-
-print("wget \"$url\" -O \"$name.mp3\"\n");
-
-}
-
-}
-*/
 
 ?>
