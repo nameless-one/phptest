@@ -115,7 +115,7 @@ class TestPub {
 		$prevdist=0;
 			while (flag<$this->points) {
 				$distance=$this->getPartDistance($flag);
-				if $distance>=$dist {
+				if ($distance>=$dist) {
 					$n=$flag;
 					$percent=($distance-$prevdist)/($this->speed*($delta-$prevtime))*100;
 					break 1;
