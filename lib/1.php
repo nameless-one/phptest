@@ -9,7 +9,7 @@ class TestPub {
 	public $speed;
 	private $mc;
 	private $redis;
-	private $debug=true;
+	private $debug=false;
 
 
 
